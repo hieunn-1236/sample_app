@@ -30,4 +30,47 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  author: "Michael Hartl"
+  title: "Ruby on Rails Tutorial Sample App" 
+  tutorial: "Ruby on Rails Tutorial"
+  layouts:
+    header:
+      logotext: "sample app"
+      home: "Home"
+      help: "Help"
+      signup: "Sign Up"
+      login: "Log in"
+      about: "About"
+      account: "Account"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "The"
+      by: "by"
+
+  static_pages:
+    home: 
+      title: "Home"
+      welcome: "Welcome to the Sample App"
+      signup: "Sign up now!"
+      hm1: "This is the homepage for the"
+      hm2: "sample application"
+    help: 
+      title: "Help"
+      page: "Rails Tutorial help page"
+      link: "help page"
+      hp1: "Get help on the Ruby on Rails Tutorial at the"
+      hp2: "To get help on this sample app, see the"
+    about: 
+      title: "About"
+      content: "About the Ruby on Rails Tutorial about the sample app at the"
+      link: "about page"
+    contact: 
+      title: "Contact"
+      content: "Contact the Ruby on Rails Tutorial contact the sample app at the"
+      link: "contact page"
+      
