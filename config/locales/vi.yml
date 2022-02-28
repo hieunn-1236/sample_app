@@ -1,7 +1,10 @@
 vi:
   author: "Michael Hartl"
-  title: "Ứng dụng mẫu hướng dẫn Ruby on Rails" 
+  title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+  success: "Chào mừng đến ứng dụng mẫu!"
+  fail_to_create: "Tạo tài khoản thất bại"
+
   layouts:
     header:
       logotext: "sample app"
@@ -19,25 +22,40 @@ vi:
       news: "Bản tin"
       the: ""
       by: "bởi"
- 
+
   static_pages:
-    home: 
+    home:
       title: "Trang chủ"
       welcome: "Chào mừng bạn đến với ứng dụng mẫu"
       signup: "Đăng ký ngay!"
       hm1: "Đây là trang chủ cho"
       hm2: "ứng dụng mẫu"
-    help: 
+    help:
       title: "Trợ giúp"
       page: "Trang trợ giúp Hướng dẫn về Rails"
       link: "trang trợ giúp"
       hp1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       hp2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
-    about: 
+    about:
       title: "Thông tin"
       content: "Giới thiệu về Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       link: "trang thông tin"
-    contact: 
+    contact:
       title: "Liên hệ"
       content: "Liên hệ với Hướng dẫn Ruby on Rails liên hệ với ứng dụng mẫu tại "
       link: "trang liên hê"
+
+  users:
+    new:
+      title: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+    show:
+      user_not_found: "Không tìm thấy tài khoản."
+
+  error:
+    error_valid: "Hiện đang có "
+    error: "lỗi"
