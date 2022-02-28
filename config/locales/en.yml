@@ -31,8 +31,10 @@
 
 en:
   author: "Michael Hartl"
-  title: "Ruby on Rails Tutorial Sample App" 
+  title: "Ruby on Rails Tutorial Sample App"
   tutorial: "Ruby on Rails Tutorial"
+  success: "Welcome to the Sample App!"
+  fail_to_create: "Fail to create"
   layouts:
     header:
       logotext: "sample app"
@@ -53,24 +55,38 @@ en:
       by: "by"
 
   static_pages:
-    home: 
+    home:
       title: "Home"
       welcome: "Welcome to the Sample App"
       signup: "Sign up now!"
       hm1: "This is the homepage for the"
       hm2: "sample application"
-    help: 
+    help:
       title: "Help"
       page: "Rails Tutorial help page"
       link: "help page"
       hp1: "Get help on the Ruby on Rails Tutorial at the"
       hp2: "To get help on this sample app, see the"
-    about: 
+    about:
       title: "About"
       content: "About the Ruby on Rails Tutorial about the sample app at the"
       link: "about page"
-    contact: 
+    contact:
       title: "Contact"
       content: "Contact the Ruby on Rails Tutorial contact the sample app at the"
       link: "contact page"
-      
+
+  users:
+    new:
+      title: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Create my account"
+    show:
+      user_not_found: "User not found"
+
+  error:
+    error_valid: "The form contains"
+    error: "error"
