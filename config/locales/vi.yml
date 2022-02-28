@@ -1,4 +1,6 @@
 vi:
+  en: "EN"
+  vi: "VI"
   author: "Michael Hartl"
   title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   tutorial: "Hướng dẫn sử dụng Ruby on Rails"
@@ -16,6 +18,9 @@ vi:
       settings: "Cài đặt"
       logout: "Đăng xuất"
       login: "Đăng nhập"
+      users: "Người dùng"
+      profile: "Thông tin cá nhân"
+      account: "Tài khoản"
     footer:
       about: "Thông tin"
       contact: "Liên hệ"
@@ -59,3 +64,13 @@ vi:
   error:
     error_valid: "Hiện đang có "
     error: "lỗi"
+
+  sessions:
+    new:
+      login: "Đăng nhập"
+      password: "Mật khẩu"
+      new_user: "Chưa có tài khoản? "
+      signup: "Đăng ký"
+      email: "Email"
+    create:
+      invalid_user: "Sai mật khẩu, email"
