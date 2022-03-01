@@ -47,6 +47,12 @@ en:
   activated: "Account activated"
   activate_failed: "Account activated failed"
   acount_not_activated: "Account not activated"
+  forgot_password: "Forgot password"
+  email_not_found: "Email address not found"
+  reset_password: "Reset password"
+  cannot_blank: "Cannot blank"
+  confirmation: "confirmation"
+  click_below_to_reset: "Click below to reset"
 
   layouts:
     header:
@@ -134,3 +140,28 @@ en:
       email: "Email"
     create:
       invalid_user: "Invalid email/password"
+
+  user_mailer:
+    password_reset:
+      click_below_to_reset: "To reset your password click the link below:"
+      expire_time: "This link will expire in two hours."
+      ignore_if_stay: "If you did not request your password to be reset,
+                      please ignore this email and your password
+                      will stay as it is."
+
+  password_resets:
+    new:
+      submit: "Submit"
+      email: "Email"
+    edit:
+      title: "Update password"
+      password: "Password"
+      update_password: "Update password"
+      reset_expired: "Password reset has expired"
+      error_user: "Not active/Invalid token"
+      activated_fail: "Activated fail"
+      password: "New password"
+      confirmation: "Confirmation new password"
+    update:
+      password_reseted: "Password has been reset."
+      reset_failed: "Reset failed"

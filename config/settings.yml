@@ -14,6 +14,7 @@ settings:
   gravatar_url: "https://secure.gravatar.com/avatar/#"
   avatar_size: 50
   paging_numbers: 10
+  expired_password_time: 2
 
   # localhost
   localhost: "localhost:3000"
