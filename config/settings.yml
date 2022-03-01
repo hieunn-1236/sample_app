@@ -1,7 +1,7 @@
-settings: 
+settings:
   link: "http://www.railstutorial.org/"
   help: "http://www.railstutorial.org/help"
-  book: "http://www.railstutorial.org/book" 
+  book: "http://www.railstutorial.org/book"
   news: "https://news.railstutorial.org/"
   contact: "https://news.railstutorial.org/contact"
   about: "https://news.railstutorial.org/about"
@@ -10,3 +10,7 @@ settings:
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   email_maximun_length: 255
   password_minimun: 6
+  gravatar_email: "http://gravatar.com/emails"
+  gravatar_url: "https://secure.gravatar.com/avatar/#"
+  avatar_size: 50
+  paging_numbers: 10

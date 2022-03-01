@@ -37,6 +37,12 @@ en:
   tutorial: "Ruby on Rails Tutorial"
   success: "Welcome to the Sample App!"
   fail_to_create: "Fail to create"
+  please_log_in: "Please log in"
+  profile_updated: "Profile updated"
+  fail_to_update: "Update fail"
+  user_deleted: "Delete succesfully"
+  delete_fail: "Delete fail"
+
   layouts:
     header:
       logotext: "sample app"
@@ -81,6 +87,9 @@ en:
       link: "contact page"
 
   users:
+    index:
+      title: "Users"
+      delete: "Delete"
     new:
       title: "Sign up"
       name: "Name"
@@ -91,6 +100,17 @@ en:
       remember_me: "Remember me on this computer"
     show:
       user_not_found: "User not found"
+    edit:
+      title: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Update my account"
+      change: "Change"
+    user:
+      sure: "Are you sure?"
+
   error:
     error_valid: "The form contains"
     error: "error"
