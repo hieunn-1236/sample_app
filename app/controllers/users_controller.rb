@@ -19,29 +19,29 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t("success")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "check_your_mail"
+      redirect_to root_url
     else
-      flash.now[:danger] = t("fail_to_create")
       render :new
     end
   end
 
   def update
     if @user.update user_params
-      flash[:success] = t("profile_updated")
+      flash[:success] = t "profile_updated"
       redirect_to @user
     else
-      flash.now[:danger] = t("fail_to_update")
+      flash.now[:danger] = t "fail_to_update"
       render :edit
     end
   end
 
   def destroy
     if @user&.destroy
-      flash[:success] = t("user_deleted")
+      flash[:success] = t "user_deleted"
     else
-      flash[:danger] = t("delete_fail")
+      flash[:danger] = t "delete_fail"
     end
     redirect_to users_url
   end
@@ -57,7 +57,7 @@ class UsersController < ApplicationController
 
     store_location
 
-    flash[:danger] = t("please_log_in")
+    flash[:danger] = t "please_log_in"
 
     redirect_to login_url
   end

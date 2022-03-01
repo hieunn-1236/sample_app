@@ -42,6 +42,11 @@ en:
   fail_to_update: "Update fail"
   user_deleted: "Delete succesfully"
   delete_fail: "Delete fail"
+  sample_app: "Sample App"
+  check_your_mail: "Check your email please"
+  activated: "Account activated"
+  activate_failed: "Account activated failed"
+  acount_not_activated: "Account not activated"
 
   layouts:
     header:
@@ -110,6 +115,11 @@ en:
       change: "Change"
     user:
       sure: "Are you sure?"
+    email:
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      account_activate: "Account activation"
 
   error:
     error_valid: "The form contains"
