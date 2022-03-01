@@ -30,6 +30,8 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  en: "EN"
+  vi: "VI"
   author: "Michael Hartl"
   title: "Ruby on Rails Tutorial Sample App"
   tutorial: "Ruby on Rails Tutorial"
@@ -47,6 +49,8 @@ en:
       settings: "Settings"
       logout: "Log out"
       login: "Log in"
+      users: "Users"
+      profile: "Profile"
     footer:
       about: "About"
       contact: "Contact"
@@ -86,7 +90,16 @@ en:
       submit: "Create my account"
     show:
       user_not_found: "User not found"
-
   error:
     error_valid: "The form contains"
     error: "error"
+
+  sessions:
+    new:
+      login: "Log in"
+      password: "Password"
+      new_user: "New User?"
+      signup: "Sign up Now!"
+      email: "Email"
+    create:
+      invalid_user: "Invalid email/password"
