@@ -88,6 +88,7 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       submit: "Create my account"
+      remember_me: "Remember me on this computer"
     show:
       user_not_found: "User not found"
   error:

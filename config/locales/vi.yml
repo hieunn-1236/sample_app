@@ -72,5 +72,6 @@ vi:
       new_user: "Chưa có tài khoản? "
       signup: "Đăng ký"
       email: "Email"
+      remember_me: "Nhớ mật khẩu tôi trên máy tính này."
     create:
       invalid_user: "Sai mật khẩu, email"
