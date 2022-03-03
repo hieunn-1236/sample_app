@@ -22,6 +22,12 @@ vi:
   cannot_blank: "Không được để trống"
   confirmation: "Xác nhận"
   click_below_to_reset: "Chọn bên dưới để lấy lại mật khẩu"
+  del: "Xóa bài"
+  sure?: "Xóa bài đăng"
+  view_profile: "Thông tin tài khoản"
+  micropost: "Bài đăng"
+  post: "Đăng"
+  compose_new_post: "Soạn bài viết"
 
   layouts:
     header:
@@ -79,6 +85,7 @@ vi:
       submit: "Tạo tài khoản"
     show:
       user_not_found: "Không tìm thấy tài khoản."
+      microposts: "Bài đăng"
     edit:
       title: "Cập nhật thông tin tài khoản"
       name: "Tên"
@@ -134,3 +141,26 @@ vi:
     update:
       password_reseted: "Mật khẩu đã được thay đổi."
       reset_failed: "Cập nhật thất bại"
+
+  microposts:
+    create:
+      micropost_created: "Bài viết đã được tạo!"
+      micropost_created_fail: "Tạo thất bại!"
+      success_upload: "Đăng bài thành công"
+    destroy:
+      micropost_deleted: "Bài viết đã được xóa"
+      deleted_fail: "Xóa thất bại"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      invalid_format: "Không hợp lệ"
+      large_size: "Kích cỡ phải nhỏ hơn 5mb"
+
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "Dữ liệu không hợp lệ"
+              large_size: "kích cỡ nên nhỏ hơn 5mb"
