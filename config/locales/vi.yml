@@ -16,6 +16,12 @@ vi:
   activated: "Kích hoạt thành công"
   activate_failed: "Kích hoạt tài khoản thất bại"
   acount_not_activated: "Tài khoản chưa xác thực, vui lòng xác thực qua email"
+  forgot_password: "Quên mật khẩu"
+  email_not_found: "Không tìm thấy địa chỉ email"
+  reset_password: "Lấy lại mật khẩu"
+  cannot_blank: "Không được để trống"
+  confirmation: "Xác nhận"
+  click_below_to_reset: "Chọn bên dưới để lấy lại mật khẩu"
 
   layouts:
     header:
@@ -78,14 +84,15 @@ vi:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
-      confirmation: "Xác nhận mật khẩu"
+      confirmation: "Xác nhận"
       submit: "Lưu thông tin"
       change: "Thay đổi"
     user:
       sure: "Are you sure?"
     email:
       hi: "Xin chào"
-      welcome: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      welcome: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên
+                                        dưới để kích hoạt tài khoản của bạn:"
       activate: "Kích hoạt"
       account_activate: "Kích hoạt tài khoản"
 
@@ -103,3 +110,27 @@ vi:
       remember_me: "Nhớ mật khẩu tôi trên máy tính này."
     create:
       invalid_user: "Sai mật khẩu, email"
+
+  user_mailer:
+    password_reset:
+      click_below_to_reset: "Truy cập đường dẫn phía dưới để đặt lại mật khẩu"
+      expire_time: "Đường dẫn sẽ hết hạn sau 2 giờ."
+      ignore_if_stay: "Nếu bạn không yêu cầu đặt lại mật khẩu,
+                      vui lòng bỏ qua email, mật khẩu của bạn sẽ được giữ nguyên."
+
+  password_resets:
+    new:
+      submit: "Tiếp tục"
+      email: "Email"
+    edit:
+      title: "Cập nhật mật khẩu"
+      password: "Mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+      reset_expired: "Hết hạn cập nhật"
+      error_user: "Có lỗi khi cập nhật"
+      activated_fail: "Kích hoạt lỗi"
+      password: "Mật khẩu mới"
+      confirmation: "Xác nhận mật khẩu mới"
+    update:
+      password_reseted: "Mật khẩu đã được thay đổi."
+      reset_failed: "Cập nhật thất bại"
