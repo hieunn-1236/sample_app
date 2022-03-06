@@ -59,6 +59,10 @@ en:
   micropost: "Micropost"
   post: "Post"
   compose_new_post: "Compose new post"
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
 
   layouts:
     header:
@@ -133,6 +137,9 @@ en:
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
       account_activate: "Account activation"
+    show_follow:
+      view_my_profile: "View My Profile"
+      microposts: "microposts"
 
   error:
     error_valid: "The form contains"
