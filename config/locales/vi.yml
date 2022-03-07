@@ -28,6 +28,10 @@ vi:
   micropost: "Bài đăng"
   post: "Đăng"
   compose_new_post: "Soạn bài viết"
+  following: "Đang theo dõi"
+  followers: "Được theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
 
   layouts:
     header:
@@ -96,12 +100,16 @@ vi:
       change: "Thay đổi"
     user:
       sure: "Are you sure?"
+      delete: "Xóa"
     email:
       hi: "Xin chào"
       welcome: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên
                                         dưới để kích hoạt tài khoản của bạn:"
       activate: "Kích hoạt"
       account_activate: "Kích hoạt tài khoản"
+    show_follow:
+      view_my_profile: "Xem thông tin cá nhân"
+      microposts: "Bài đăng"
 
   error:
     error_valid: "Hiện đang có "
