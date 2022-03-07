@@ -53,6 +53,12 @@ en:
   cannot_blank: "Cannot blank"
   confirmation: "confirmation"
   click_below_to_reset: "Click below to reset"
+  del: "Delete"
+  sure?: "Sure"
+  view_profile: "View profile"
+  micropost: "Micropost"
+  post: "Post"
+  compose_new_post: "Compose new post"
 
   layouts:
     header:
@@ -111,6 +117,7 @@ en:
       remember_me: "Remember me on this computer"
     show:
       user_not_found: "User not found"
+      microposts: "Microposts"
     edit:
       title: "Update your profile"
       name: "Name"
@@ -165,3 +172,26 @@ en:
     update:
       password_reseted: "Password has been reset."
       reset_failed: "Reset failed"
+
+  microposts:
+    create:
+      micropost_created: "Micropost created!"
+      micropost_created_fail: "Create fail!"
+      success_upload: "Upload succesfully"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      deleted_fail: "Deleted fail"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      invalid_format: "Invalid format"
+      large_size: "should be less than 5mb"
+
+activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              large_size: "should be less than 5MB"
